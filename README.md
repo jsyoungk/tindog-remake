@@ -16,6 +16,8 @@
   <li>I need to work on my naming practices.</li>
   <br>
   <li>I need to learn how to work on padding and margins better so that my website looks even.</li>
+  <br>
+  <li><b>Code Refactoring</b></li>
  </ol>
  
  <br>

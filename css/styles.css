@@ -1,0 +1,186 @@
+body{
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+
+.container-fluid{
+  padding: 3% 15% 17%;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+/*Nav bar*/
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/*Download Buttons*/
+.download-Button{
+  margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+.titleImage{
+  width: 60%;
+  transform: rotate(25deg);
+  /*z-index: -1;*/
+  position: absolute;
+  /*right: 5%;*/
+  right: 30%;
+}
+
+/*Feature Sections*/
+#features{
+  text-align: center;
+  padding: 7% 2%;
+  background-color: #fff;
+  position: relative;
+  /*z-index: 1;*/
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon-image{
+  color: #f08072;
+}
+
+.icon-image:hover{
+  color: #ff4c68;
+}
+
+.grey-text{
+  color: #8f8f8f;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-size: 1.1rem;*/
+}
+
+/*Testimonials Section*/
+
+#testimonials{
+  padding: 4% 2% 4% 2%;
+  text-align: center;
+  background-color: #f08072;
+  color: white;
+}
+
+/*.carousel-inner{
+    border: 2px dashed blue;
+    padding-bottom: -5%;
+}*/
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 45%;
+  margin: 20px;
+}
+
+/*press section*/
+#press{
+  background-color: #f08072;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/*Call to Action Section*/
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  /*width: 100px;*/
+  padding:10% 8%;
+}
+
+.whiteColor{
+  color: white;
+  font-weight: bold;
+}
+
+/*Footer*/
+#footer{
+  padding: 7%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.high-light{
+  color: lightgrey;
+}
+
+.end-icons{
+  padding: 2%;
+}
+/*Making this more mobile friendly*/
+
+@media (max-width: 1028px) {
+  .titleImage{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
